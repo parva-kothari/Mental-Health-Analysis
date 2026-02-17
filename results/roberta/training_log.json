@@ -1,0 +1,35 @@
+{
+  "model_name": "mental/mental-roberta-base",
+  "num_labels": 7,
+  "classes": [
+    "Normal",
+    "Anxiety",
+    "Depression",
+    "Stress",
+    "Suicidal",
+    "Bipolar",
+    "Personality disorder"
+  ],
+  "training_duration_minutes": 112.33112555,
+  "final_metrics": {
+    "loss": 0.4951449930667877,
+    "accuracy": 0.8414536741214057,
+    "precision_macro": 0.8368908710629297,
+    "recall_macro": 0.8411730364646736,
+    "f1_macro": 0.8321461855085285,
+    "precision_weighted": 0.8645955781759848,
+    "recall_weighted": 0.8414536741214057,
+    "f1_weighted": 0.8408049134335642,
+    "f1_normal": 0.9624945486262538,
+    "f1_anxiety": 0.8966789667896679,
+    "f1_depression": 0.7557071634741538,
+    "f1_stress": 0.8142857142857143,
+    "f1_suicidal": 0.7705559906029757,
+    "f1_bipolar": 0.8790322580645161,
+    "f1_personality_disorder": 0.746268656716418,
+    "runtime": 85.4846,
+    "samples_per_second": 87.875,
+    "steps_per_second": 5.498,
+    "epoch": 2.7373944786675795
+  }
+}
