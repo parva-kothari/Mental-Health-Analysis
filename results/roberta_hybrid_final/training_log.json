@@ -1,0 +1,35 @@
+{
+  "model_name": "FacebookAI/roberta-base",
+  "num_labels": 7,
+  "classes": [
+    "Normal",
+    "Anxiety",
+    "Depression",
+    "Stress",
+    "Suicidal",
+    "Bipolar",
+    "Personality disorder"
+  ],
+  "training_duration_minutes": 120.35531706666667,
+  "final_metrics": {
+    "loss": 0.4762871563434601,
+    "accuracy": 0.8551650692225772,
+    "precision_macro": 0.831722016989786,
+    "recall_macro": 0.8539898384304955,
+    "f1_macro": 0.8410545937006756,
+    "precision_weighted": 0.8608231030905981,
+    "recall_weighted": 0.8551650692225772,
+    "f1_weighted": 0.855681308619497,
+    "f1_normal": 0.9581965419128913,
+    "f1_anxiety": 0.9002744739249772,
+    "f1_depression": 0.8018168778388717,
+    "f1_stress": 0.8005427408412483,
+    "f1_suicidal": 0.7801169590643274,
+    "f1_bipolar": 0.8918558077436582,
+    "f1_personality_disorder": 0.7545787545787546,
+    "runtime": 85.4228,
+    "samples_per_second": 87.939,
+    "steps_per_second": 5.502,
+    "epoch": 4.0
+  }
+}
